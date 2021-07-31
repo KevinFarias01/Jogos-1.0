@@ -1,0 +1,57 @@
+header{
+    background-color: rgba(243, 166, 226, 0.856);
+    border: darkblue;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    border-image: auto;
+    text-shadow: 4px 6px 8px rgb(255, 0, 191);
+    color: white;
+    
+
+}
+
+input{
+    text-align: center;
+    background-color: rgb(238, 61, 200);
+    color: white;
+    margin: auto;
+    width: 200px;
+    padding: auto;
+    box-shadow: 4px 3px 10px mediumvioletred;
+}
+p{
+    float: left;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+
+}
+#mostrador{
+    margin: auto;
+    width: 380px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.espaco {
+    width: 150px;
+    height: 120px;
+    border: 2px solid rgb(255, 0, 85);
+    text-align: center;
+    padding-top: 30px;
+
+    float: left;
+    background-color: rgb(255, 247, 250);
+} /* usei '.' porq é uma class*/
+.tabuleiro{
+    margin: auto;
+    width: 462px; /*largura + altura + 2bordas de 2px*/
+    color: #000;
+}
+
+body{
+    background-color: rgb(241, 0, 161);
+}
